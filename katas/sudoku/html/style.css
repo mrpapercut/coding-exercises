@@ -1,0 +1,97 @@
+#puzzlename {
+    position: absolute;
+    left: 65vw;
+    top: 6vh;
+}
+
+#infobox {
+    position: absolute;
+    left: 65vw;
+    top: 17vh;
+}
+
+#out {
+    position: absolute;
+    right: 15vw;
+    width: 20vw;
+    height: 50vh;
+    top: 25vh;
+}
+
+#numcount {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: .5rem;
+    right: 15vw;
+    top: 5vh;
+    width: 100px;
+    height: 100px;
+}
+
+#numcount div {
+    border: 1px solid #333;
+    position: relative;
+    text-align: center;
+}
+
+#numcount div::before {
+    content: attr(data-val);
+    margin: 50% 0 0 -0.25em;
+    position: absolute;
+    transform: translateY(-0.5em);
+    text-align: center;
+    font-weight: bold;
+}
+
+#numcount div::after {
+    content: attr(data-count);
+    position: absolute;
+    font-size: .65rem;
+    right: 0;
+}
+
+#app {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-rows: repeat(9, 1fr);
+    grid-gap: .5rem;
+    margin: 0 auto;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-gap: .5rem;
+}
+
+.cell {
+    border: 1px solid #333;
+    position: relative;
+    text-align: center;
+}
+
+.cell::before {
+    content: attr(data-val);
+    margin: 50% 0 0 -0.25em;
+    position: absolute;
+    transform: translateY(-0.5em);
+    text-align: center;
+}
+
+.cell::after {
+    content: attr(data-poss);
+    position: absolute;
+    font-size: .65rem;
+    right: 0;
+}
+
+input {
+    border: none;
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    outline: none;
+    text-align: center;
+}
