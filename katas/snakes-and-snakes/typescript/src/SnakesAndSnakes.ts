@@ -52,7 +52,7 @@ class SnakesAndSnakes {
     }
 
     private logAction(action: string) {
-        // console.log(action);
+        console.log(action);
     }
 
     private setPlayers(amount: number): void {
@@ -76,6 +76,7 @@ class SnakesAndSnakes {
             this.playRound();
         }
 
+        this.logAction(`\n--- Game is over! ---\n`)
         this.logAction(`Total rounds: ${this.game.rounds}`);
         this.logAction(`Winner: ${this.game.players[this.game.winner].name}!`)
 
@@ -83,10 +84,10 @@ class SnakesAndSnakes {
             this.logAction(`${player.name} moved ${player.totalSteps} total spaces and hit ${player.totalSnakes} snakes. Final position: ${player.currentPosition}`)
         });
 
-        const totalSnakes = this.game.players.reduce((prev, curr) => {
-            return prev + curr.totalSnakes;
-        }, 0);
-        console.log({ rounds: this.game.rounds, winner: this.game.winner, totalSnakes })
+        // const totalSnakes = this.game.players.reduce((prev, curr) => {
+        //     return prev + curr.totalSnakes;
+        // }, 0);
+        // console.log({ rounds: this.game.rounds, winner: this.game.winner, totalSnakes })
     }
 
     private roll(): number {
@@ -101,18 +102,18 @@ class SnakesAndSnakes {
         this.game.players.forEach((player, playerIndex) => {
             if (this.game.gameIsOver) return;
 
-            this.logAction(`${player.name}'s turn`);
-
-            const roll = this.roll();
-
-            this.logAction(`${player.name} rolled a ${roll}`);
-
-            this.handleMove(playerIndex, roll)
+            this.handlePlayerTurn(playerIndex)
         })
     }
 
-    private handleMove(playerIndex: number, roll: number): void {
+    private handlePlayerTurn(playerIndex: number): void {
         const player = this.game.players[playerIndex];
+
+        this.logAction(`${player.name}'s turn`);
+
+        const roll = this.roll();
+
+        this.logAction(`${player.name} rolled a ${roll}`);
 
         if (player.isOnBoard === false) {
             if (roll === 6) {
@@ -154,6 +155,12 @@ class SnakesAndSnakes {
                 this.logAction(`${player.name} is now on ${newPosition}`);
 
                 this.game.players[playerIndex].currentPosition = newPosition;
+            }
+
+            if (roll === 6) {
+                this.logAction(`${player.name} rolled a six and gets another turn!`);
+
+                this.handlePlayerTurn(playerIndex);
             }
         }
     }
