@@ -33,35 +33,40 @@ func Roll() int {
 	return randomInt
 }
 
+func LogAction(action string) {
+	fmt.Println(action)
+}
+
 func PlayRound() {
 	game.rounds++
 
-	// fmt.Printf("\n---\nPlaying round %d\n", game.rounds)
+	LogAction(fmt.Sprintf("\n---\nPlaying round %d\n", game.rounds))
 
 	for player_id, player := range game.players {
-		// player_name := fmt.Sprintf("Player %d", player_id+1)
-
-		// fmt.Printf("%s's turn\n", player_name)
+		player_name := fmt.Sprintf("Player %d", player_id+1)
+		LogAction(fmt.Sprintf("%s's turn\n", player_name))
 
 		roll := Roll()
-		// fmt.Printf("%s rolled a %d\n", player_name, roll)
+		LogAction(fmt.Sprintf("%s rolled a %d\n", player_name, roll))
 
 		if player.IsOnBoard == false {
 			if roll == 6 {
-				// fmt.Printf("%s is on board!\n", player_name)
+				LogAction(fmt.Sprintf("%s is on board!\n", player_name))
+
 				game.players[player_id].CurrentPosition = 1
 				game.players[player_id].IsOnBoard = true
 			} else {
-				// fmt.Printf("%s failed to get on board\n", player_name)
+				LogAction(fmt.Sprintf("%s failed to get on board\n", player_name))
 			}
 		} else {
-			// fmt.Printf("%s was on %d and will move to %d\n", player_name, player.CurrentPosition, player.CurrentPosition+roll)
+			LogAction(fmt.Sprintf("%s was on %d and will move to %d\n", player_name, player.CurrentPosition, player.CurrentPosition+roll))
 
 			newPosition := player.CurrentPosition + roll
 			game.players[player_id].TotalSteps += roll
 
 			if newPosition == 100 {
-				// fmt.Printf("%s has won!!!", player_name)
+				LogAction(fmt.Sprintf("%s has won!!!", player_name))
+
 				game.players[player_id].CurrentPosition = newPosition
 				game.winner = player_id
 				game.GameIsOver = true
@@ -69,17 +74,20 @@ func PlayRound() {
 			}
 
 			if newPosition > 100 {
+				LogAction(fmt.Sprintf("Oh no! %s overshot!\n", player_name))
+
 				newPosition = 100 - (newPosition - 100)
-				// fmt.Printf("Oh no! %s overshot!\n", player_name)
 			}
 
 			if val, found := snakes[newPosition]; found {
+				LogAction(fmt.Sprintf("Oh no! %s landed on a snake and slides to %d\n", player_name, game.players[player_id].CurrentPosition))
+
 				game.players[player_id].CurrentPosition = val
 				game.players[player_id].TotalSnakes++
-				// fmt.Printf("Oh no! %s landed on a snake and slides to %d\n", player_name, game.players[player_id].CurrentPosition)
 			} else {
+				LogAction(fmt.Sprintf("%s is now on %d\n", player_name, game.players[player_id].CurrentPosition))
+
 				game.players[player_id].CurrentPosition = newPosition
-				// fmt.Printf("%s is now on %d\n", player_name, game.players[player_id].CurrentPosition)
 			}
 		}
 	}
@@ -113,9 +121,10 @@ func main() {
 		PlayRound()
 	}
 
-	fmt.Printf("\n---\nTotal rounds: %d\n", game.rounds)
-	fmt.Printf("Winner: Player %d\n", game.winner+1)
+	LogAction(fmt.Sprintf("\n---\nTotal rounds: %d\n", game.rounds))
+	LogAction(fmt.Sprintf("Winner: Player %d\n", game.winner+1))
 	for player_index, player := range game.players {
-		fmt.Printf("Player %d moved %d total spaces and hit %d snakes. Final position: %d\n", player_index+1, player.TotalSteps, player.TotalSnakes, player.CurrentPosition)
+		LogAction(fmt.Sprintf("Player %d moved %d total spaces and hit %d snakes. Final position: %d\n",
+			player_index+1, player.TotalSteps, player.TotalSnakes, player.CurrentPosition))
 	}
 }
