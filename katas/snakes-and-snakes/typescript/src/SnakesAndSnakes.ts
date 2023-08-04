@@ -19,7 +19,7 @@ class SnakesAndSnakes {
     game: Game
     snakes: Record<number, number>
 
-    constructor() {
+    constructor(...players: string[]) {
         this.snakes = {
             14: 4,
             17: 7,
@@ -46,7 +46,7 @@ class SnakesAndSnakes {
             winner: null
         }
 
-        this.setPlayers(2)
+        this.setPlayers(players)
 
         this.runGame()
     }
@@ -55,14 +55,14 @@ class SnakesAndSnakes {
         console.log(action);
     }
 
-    private setPlayers(amount: number): void {
-        for (let i = 0; i < amount; i++) {
+    private setPlayers(playerNames: string[] = ['Player 1', 'Player 2']): void {
+        for (let i = 0; i < playerNames.length; i++) {
             this.game.players.push({
                 isOnBoard: false,
                 currentPosition: 0,
                 totalSteps: 0,
                 totalSnakes: 0,
-                name: `Player ${i + 1}`
+                name: playerNames[i]
             });
         }
     }
