@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<title>Flood Fill Maze</title>
+<style>
+#maze {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 400px;
+}
+
+#maze > div {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+}
+
+#maze > div.start {
+    background: greenyellow;
+}
+
+#maze > div.highlight {
+    background: lightblue;
+}
+
+#maze > div.wall {
+    background: #333;
+}
+</style>
+</head>
+<body>
+<div id="maze"></div>
+<script src="app.js"></script>
+</body>
+</html>
