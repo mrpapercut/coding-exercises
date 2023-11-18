@@ -1,0 +1,2027 @@
+[
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-67.25503939246589,-7.955021123372926],
+                "initialPosition": [0,0],
+                "velocity": [-0.009489941687474374,0.011938753137132552],
+                "initialVelocity": [0,0],
+                "distance_travelled": 69.98356597922937,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 17,
+                "position": [-328.21212207865045,-60.575809780643866],
+                "initialPosition": [110,260],
+                "velocity": [-2.417681360309195,-8.02279596301915],
+                "initialVelocity": [-8,-1],
+                "distance_travelled": 9195.930283094776,
+                "distance_to_star": 266
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-15.060267471062943,-29.688658291308744],
+                "initialPosition": [0,0],
+                "velocity": [-0.008854679169880473,-0.0022753179349770626],
+                "initialVelocity": [0,0],
+                "distance_travelled": 50.40871241442445,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 15,
+                "position": [-249.8216859580516,-187.5611391276202],
+                "initialPosition": [-290,20],
+                "velocity": [3.903119446586975,-2.4831213766819937],
+                "initialVelocity": [-2,-4],
+                "distance_travelled": 32091.050066712865,
+                "distance_to_star": 282
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-38.051951245987006,-75.22091547068682],
+                "initialPosition": [0,0],
+                "velocity": [-0.013952690786767509,-0.00956179959959552],
+                "initialVelocity": [0,0],
+                "distance_travelled": 96.45918569889018,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 19,
+                "position": [-142.65723895418208,-400.0444891122143],
+                "initialPosition": [-170,10],
+                "velocity": [3.3435214667197677,-2.967473894949741],
+                "initialVelocity": [-4,-8],
+                "distance_travelled": 29138.991821476626,
+                "distance_to_star": 341
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-17.00439522753471,-45.83035136680228],
+                "initialPosition": [0,0],
+                "velocity": [-0.012306457288514035,-0.013188427087362868],
+                "initialVelocity": [0,0],
+                "distance_travelled": 60.02996795891362,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 18,
+                "position": [-243.1137624806719,251.30631489017253],
+                "initialPosition": [310,-210],
+                "velocity": [4.836920715841142,2.3269039374238267],
+                "initialVelocity": [-2,-5],
+                "distance_travelled": 24278.93017450541,
+                "distance_to_star": 373
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-28.050718294774963,-28.501081713792175],
+                "initialPosition": [0,0],
+                "velocity": [0.008694532457124442,-0.01494927824610583],
+                "initialVelocity": [0,0],
+                "distance_travelled": 66.44196061803089,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 19,
+                "position": [-36.46405538146848,-169.43067695149352],
+                "initialPosition": [200,-170],
+                "velocity": [-7.576069714275961,4.8680411821609635],
+                "initialVelocity": [-3,-3],
+                "distance_travelled": 35161.89929395269,
+                "distance_to_star": 141
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-42.15303779036764,-8.218196772519498],
+                "initialPosition": [0,0],
+                "velocity": [-0.0050691921499619605,0.009248997302887587],
+                "initialVelocity": [0,0],
+                "distance_travelled": 60.948045550911786,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 17,
+                "position": [-224.09541743066413,114.23339559969304],
+                "initialPosition": [-20,280],
+                "velocity": [-2.0181222647282357,-6.4405866487573835],
+                "initialVelocity": [-5,-1],
+                "distance_travelled": 32789.19682999795,
+                "distance_to_star": 219
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-20.129832455888177,-4.25260094018149],
+                "initialPosition": [0,0],
+                "velocity": [-0.010101150400373076,-0.001455196847634344],
+                "initialVelocity": [0,0],
+                "distance_travelled": 28.2334312683319,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 10,
+                "position": [-50.1675441118043,-317.39905981848307],
+                "initialPosition": [-180,430],
+                "velocity": [6.101150400373082,0.45519684763435125],
+                "initialVelocity": [-4,-1],
+                "distance_travelled": 24926.160643947394,
+                "distance_to_star": 314
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-15.923938732495104,-19.786528264184753],
+                "initialPosition": [0,0],
+                "velocity": [-0.003342797303712928,0.00034121406524275657],
+                "initialVelocity": [0,0],
+                "distance_travelled": 30.36177224170911,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 8,
+                "position": [-355.0765843812168,-126.83966976902124],
+                "initialPosition": [-260,140],
+                "velocity": [0.17849662964113994,-5.426517581553453],
+                "initialVelocity": [-4,-5],
+                "distance_travelled": 25487.721824235465,
+                "distance_to_star": 355
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-27.504701590137362,-28.154139842300616],
+                "initialPosition": [0,0],
+                "velocity": [-0.005163342565992903,-0.014201362325210283],
+                "initialVelocity": [0,0],
+                "distance_travelled": 53.25703772572583,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 14,
+                "position": [-243.78457847336298,-119.90011264243549],
+                "initialPosition": [110,-230],
+                "velocity": [-0.31189816714794266,6.143830232293033],
+                "initialVelocity": [-4,-4],
+                "distance_travelled": 32835.54023171451,
+                "distance_to_star": 234
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-5.16862641043157,-28.68489551524526],
+                "initialPosition": [0,0],
+                "velocity": [-0.001876348064531508,-0.005430213809812539],
+                "initialVelocity": [0,0],
+                "distance_travelled": 31.791225390228785,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 11,
+                "position": [-1.2487177894993389,1497.1777411320377],
+                "initialPosition": [300,420],
+                "velocity": [0.7057709677559175,-0.06344199107950531],
+                "initialVelocity": [-1,-5],
+                "distance_travelled": 13268.498865024567,
+                "distance_to_star": 1525
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-35.22904693170296,-9.876448389414321],
+                "initialPosition": [0,0],
+                "velocity": [-0.005036043081610186,-0.00618304349224538],
+                "initialVelocity": [0,0],
+                "distance_travelled": 45.12797635659961,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 10,
+                "position": [249.04693170287203,76.44838941428878],
+                "initialPosition": [20,200],
+                "velocity": [-1.9639569183897976,4.183043492245358],
+                "initialVelocity": [-7,-2],
+                "distance_travelled": 32560.645116717023,
+                "distance_to_star": 297
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-44.29756136809761,-38.203915315630525],
+                "initialPosition": [0,0],
+                "velocity": [-0.011466834680159611,-0.01157266509786644],
+                "initialVelocity": [0,0],
+                "distance_travelled": 66.72384845507821,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 11,
+                "position": [220.51033463417815,-159.1678948812634],
+                "initialPosition": [-50,110],
+                "velocity": [2.4243951637814716,3.5206046344240307],
+                "initialVelocity": [-8,-7],
+                "distance_travelled": 33316.06563040251,
+                "distance_to_star": 291
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-20.404662954869785,-31.393176929712865],
+                "initialPosition": [0,0],
+                "velocity": [-0.0040768894414745915,-0.007191359582367173],
+                "initialVelocity": [0,0],
+                "distance_travelled": 37.534087523106614,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 12,
+                "position": [1683.885795724762,-8959.01922523924],
+                "initialPosition": [-320,-120],
+                "velocity": [0.3974078678954847,-1.0072003480273426],
+                "initialVelocity": [-3,-7],
+                "distance_travelled": 9166.153479626675,
+                "distance_to_star": 9088
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-30.36616577948592,-41.2458398068672],
+                "initialPosition": [0,0],
+                "velocity": [-0.004077171137156605,-0.008733631879032065],
+                "initialVelocity": [0,0],
+                "distance_travelled": 53.459356276250794,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 17,
+                "position": [-2057.5495414788147,-1157.7412900780412],
+                "initialPosition": [80,-420],
+                "velocity": [-1.6016640369666815,0.1374305170777149],
+                "initialVelocity": [-4,-5],
+                "distance_travelled": 10297.295165332029,
+                "distance_to_star": 2314
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-54.95518716787755,-23.55730087447397],
+                "initialPosition": [0,0],
+                "velocity": [-0.011197394569422323,-0.0033522715344610414],
+                "initialVelocity": [0,0],
+                "distance_travelled": 60.89023349496437,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 17,
+                "position": [2736.580686986873,8527.235808513975],
+                "initialPosition": [410,-330],
+                "velocity": [0.5867026878955197,0.9719244320358775],
+                "initialVelocity": [-6,-1],
+                "distance_travelled": 10174.636484692157,
+                "distance_to_star": 8994
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-17.929138390758684,-44.845722273196536],
+                "initialPosition": [0,0],
+                "velocity": [-0.000449443664798727,-0.0004732056791714077],
+                "initialVelocity": [0,0],
+                "distance_travelled": 52.82450853690874,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 18,
+                "position": [-419.36756068962603,-365.7098482241768],
+                "initialPosition": [-380,-280],
+                "velocity": [-1.7503090751118227,-4.737107956015894],
+                "initialVelocity": [-2,-5],
+                "distance_travelled": 14194.180148487909,
+                "distance_to_star": 513
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-40.18674112194114,-5.2665346359682],
+                "initialPosition": [0,0],
+                "velocity": [-0.008374118519803318,0.003561230599277544],
+                "initialVelocity": [0,0],
+                "distance_travelled": 47.876484818689484,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 10,
+                "position": [266.74112194099786,96.53463596809418],
+                "initialPosition": [80,-170],
+                "velocity": [0.3741185198033204,-4.561230599277589],
+                "initialVelocity": [-8,-1],
+                "distance_travelled": 30640.798689408355,
+                "distance_to_star": 323
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-15.116450030702046,-2.8053649829817204],
+                "initialPosition": [0,0],
+                "velocity": [-0.004176945976836289,0.0005584875408677531],
+                "initialVelocity": [0,0],
+                "distance_travelled": 18.338658751054258,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 5,
+                "position": [412.9000614041565,350.72996596348077],
+                "initialPosition": [180,-260],
+                "velocity": [2.35389195367261,-2.1169750817355064],
+                "initialVelocity": [-6,-1],
+                "distance_travelled": 24269.26633670848,
+                "distance_to_star": 555
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-21.845870061483645,-44.388442974218734],
+                "initialPosition": [0,0],
+                "velocity": [-0.0035561182608525714,-0.009526634860443717],
+                "initialVelocity": [0,0],
+                "distance_travelled": 49.90611977872836,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 12,
+                "position": [7934.891717903029,-2909.630854817608],
+                "initialPosition": [-270,100],
+                "velocity": [0.9634318840438035,-0.06113761629687849],
+                "initialVelocity": [-2,-8],
+                "distance_travelled": 9188.386133995733,
+                "distance_to_star": 8456
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-8.684514454106514,-31.1853240641848],
+                "initialPosition": [0,0],
+                "velocity": [0.0016595086232089765,-0.005417168405978131],
+                "initialVelocity": [0,0],
+                "distance_travelled": 36.7352397994599,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 9,
+                "position": [-150.5394954372065,-519.639928683481],
+                "initialPosition": [200,-170],
+                "velocity": [-3.843898470232195,-0.980923993357641],
+                "initialVelocity": [-2,-7],
+                "distance_travelled": 22553.280901148857,
+                "distance_to_star": 508
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-20.89905904774836,-10.373593449200898],
+                "initialPosition": [0,0],
+                "velocity": [-0.004711146890924692,0.0003985289816850475],
+                "initialVelocity": [0,0],
+                "distance_travelled": 29.235617422975157,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 7,
+                "position": [-334.20136035949963,-80.58078685581334],
+                "initialPosition": [-190,100],
+                "velocity": [0.7302098441781351,-3.5693271166929144],
+                "initialVelocity": [-6,-3],
+                "distance_travelled": 31792.254473491652,
+                "distance_to_star": 321
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-32.18401727084288,-8.272427288039818],
+                "initialPosition": [0,0],
+                "velocity": [-0.008011202390889514,-0.0010645062210488199],
+                "initialVelocity": [0,0],
+                "distance_travelled": 35.20271914982374,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 11,
+                "position": [-781.8024810519595,2070.38844367255],
+                "initialPosition": [-40,-450],
+                "velocity": [1.2829112644450045,-0.0322670717738023],
+                "initialVelocity": [-6,-1],
+                "distance_travelled": 11194.623929067897,
+                "distance_to_star": 2209
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-18.47299426907791,-102.34927304226258],
+                "initialPosition": [0,0],
+                "velocity": [-0.005039342123685992,-0.020707512905238562],
+                "initialVelocity": [0,0],
+                "distance_travelled": 104.35321774571116,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 17,
+                "position": [-9023.532782895403,145.4547307428514],
+                "initialPosition": [110,-60],
+                "velocity": [-1.0356811037141265,0.1808899442580301],
+                "initialVelocity": [-4,-12],
+                "distance_travelled": 9308.978679421441,
+                "distance_to_star": 9008
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-8.332133034007953,-57.05846227439825],
+                "initialPosition": [0,0],
+                "velocity": [-0.005054649473520553,-0.019654928416061503],
+                "initialVelocity": [0,0],
+                "distance_travelled": 65.70464613353785,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 19,
+                "position": [-414.6668242063227,-239.23038189571182],
+                "initialPosition": [200,-270],
+                "velocity": [1.660341828168707,4.344699166348166],
+                "initialVelocity": [-1,-6],
+                "distance_travelled": 20044.106676319232,
+                "distance_to_star": 445
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-17.996742740114346,-22.40520459586132],
+                "initialPosition": [0,0],
+                "velocity": [-0.0008718252308221152,-0.002226336283993147],
+                "initialVelocity": [0,0],
+                "distance_travelled": 36.11712491744518,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 9,
+                "position": [26.380822349183564,-325.3282268207807],
+                "initialPosition": [30,-220],
+                "velocity": [-3.0313052990865508,-2.5262930177854104],
+                "initialVelocity": [-4,-5],
+                "distance_travelled": 30680.528581653118,
+                "distance_to_star": 306
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-7.301202712949994,-32.33145871538737],
+                "initialPosition": [0,0],
+                "velocity": [-0.001556297839775866,-0.007551705710665851],
+                "initialVelocity": [0,0],
+                "distance_travelled": 33.15219264756234,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 15,
+                "position": [-322.53152470001476,-8935.694189741751],
+                "initialPosition": [-190,-490],
+                "velocity": [0.037531893183908614,-0.965529526222744],
+                "initialVelocity": [-1,-6],
+                "distance_travelled": 8454.988483677276,
+                "distance_to_star": 8908
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-6.498862107614486,-38.81627379018628],
+                "initialPosition": [0,0],
+                "velocity": [-0.004958888717664001,-0.0034909934184736194],
+                "initialVelocity": [0,0],
+                "distance_travelled": 53.22909724866131,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 13,
+                "position": [-200.87530183492893,-211.32785370293897],
+                "initialPosition": [-200,-70],
+                "velocity": [2.8145297828184703,-3.3146204473280436],
+                "initialVelocity": [-1,-6],
+                "distance_travelled": 35391.920319896424,
+                "distance_to_star": 259
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-19.726132175331205,-34.98578051748026],
+                "initialPosition": [0,0],
+                "velocity": [-0.0008277970764901379,-0.014294648166950958],
+                "initialVelocity": [0,0],
+                "distance_travelled": 51.54931035552479,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 10,
+                "position": [-153.86782466900868,-104.21948251965101],
+                "initialPosition": [120,-90],
+                "velocity": [-3.172202923509916,7.29464816695095],
+                "initialVelocity": [-4,-7],
+                "distance_travelled": 41300.33045253724,
+                "distance_to_star": 150
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-9.408291932832146,-13.567868914212301],
+                "initialPosition": [0,0],
+                "velocity": [0.001102382643196007,-0.004649091018573072],
+                "initialVelocity": [0,0],
+                "distance_travelled": 23.984865787468436,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 9,
+                "position": [113.65770314680945,455.40990468031555],
+                "initialPosition": [-340,380],
+                "velocity": [-3.224869603551114,2.1656566873033896],
+                "initialVelocity": [-2,-3],
+                "distance_travelled": 24672.296985306984,
+                "distance_to_star": 484
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-34.89434878812745,-25.430545577732392],
+                "initialPosition": [0,0],
+                "velocity": [-0.010366659519805099,-0.0051455827922667775],
+                "initialVelocity": [0,0],
+                "distance_travelled": 49.61376683889262,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 10,
+                "position": [54.34878812752268,360.5455777323487],
+                "initialPosition": [160,-70],
+                "velocity": [3.3666595198050993,0.1455827922667836],
+                "initialVelocity": [-7,-5],
+                "distance_travelled": 28470.030838812054,
+                "distance_to_star": 396
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-34.774260097173034,-42.38178435741431],
+                "initialPosition": [0,0],
+                "velocity": [-0.0011591929546685737,-0.017837717166496916],
+                "initialVelocity": [0,0],
+                "distance_travelled": 66.8907681523217,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 17,
+                "position": [215.44711598414787,60.46138671427534],
+                "initialPosition": [-240,130],
+                "velocity": [-3.3181217913714365,5.492774803821704],
+                "initialVelocity": [-4,-5],
+                "distance_travelled": 28085.28084392158,
+                "distance_to_star": 270
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-17.851045757313948,-14.416150246003633],
+                "initialPosition": [0,0],
+                "velocity": [-0.006240078418355666,-0.0018654654764824602],
+                "initialVelocity": [0,0],
+                "distance_travelled": 27.398712476073026,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 9,
+                "position": [194.49528590442912,707.944717781889],
+                "initialPosition": [360,-310],
+                "velocity": [2.9334204648396374,-0.9272605816861424],
+                "initialVelocity": [-4,-3],
+                "distance_travelled": 20321.981938987665,
+                "distance_to_star": 752
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-74.32883148803701,-67.56571821000502],
+                "initialPosition": [0,0],
+                "velocity": [-0.010533150116725096,-0.01999847549743353],
+                "initialVelocity": [0,0],
+                "distance_travelled": 107.85256208393005,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 15,
+                "position": [-387.4456746418744,-26.187859996645745],
+                "initialPosition": [60,-70],
+                "velocity": [-2.9778999221833033,4.332316998288998],
+                "initialVelocity": [-10,-9],
+                "distance_travelled": 26392.28224026619,
+                "distance_to_star": 315
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-15.140852011655571,-10.008043667395844],
+                "initialPosition": [0,0],
+                "velocity": [-0.0003554966565050786,-0.0012664530160933546],
+                "initialVelocity": [0,0],
+                "distance_travelled": 24.845427487995188,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 10,
+                "position": [330.8520116556266,498.043667395912],
+                "initialPosition": [190,490],
+                "velocity": [-2.64450334349491,-0.7335469839066127],
+                "initialVelocity": [-3,-2],
+                "distance_travelled": 19725.857356672735,
+                "distance_to_star": 614
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-62.734659971934605,-35.863992729699795],
+                "initialPosition": [0,0],
+                "velocity": [-0.0022533140836791406,-0.007489456274686072],
+                "initialVelocity": [0,0],
+                "distance_travelled": 89.4116718475588,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 18,
+                "position": [-137.41112670297198,-235.55959461105525],
+                "initialPosition": [10,-160],
+                "velocity": [-5.748158842400452,0.16080904149232234],
+                "initialVelocity": [-7,-4],
+                "distance_travelled": 37262.758668642884,
+                "distance_to_star": 213
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-10.957187197991765,-16.971216631469172],
+                "initialPosition": [0,0],
+                "velocity": [-0.006546150337809232,0.001977901747970258],
+                "initialVelocity": [0,0],
+                "distance_travelled": 29.603052099159804,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 11,
+                "position": [281.07927090156556,58.37875588110691],
+                "initialPosition": [320,-370],
+                "velocity": [3.9510457616447434,-4.798092498154796],
+                "initialVelocity": [-2,-3],
+                "distance_travelled": 25130.883806764086,
+                "distance_to_star": 301
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-18.181092390332473,-30.860275302047413],
+                "initialPosition": [0,0],
+                "velocity": [-0.005880803800609219,-0.010135557700198455],
+                "initialVelocity": [0,0],
+                "distance_travelled": 42.50495552226323,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 16,
+                "position": [933.1827439577821,-262.3279362203419],
+                "initialPosition": [-430,450],
+                "velocity": [1.6755023753807508,2.3347235626240344],
+                "initialVelocity": [-2,-4],
+                "distance_travelled": 17178.179882958426,
+                "distance_to_star": 979
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-42.39577711494787,-20.851780892103605],
+                "initialPosition": [0,0],
+                "velocity": [-0.0102043141497502,-0.0035804568323693463],
+                "initialVelocity": [0,0],
+                "distance_travelled": 50.5538601659596,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 17,
+                "position": [-431.30757944242345,-2404.2465340567655],
+                "initialPosition": [-370,330],
+                "velocity": [1.0025377351471922,-0.8938489221356991],
+                "initialVelocity": [-5,-3],
+                "distance_travelled": 11359.699357419282,
+                "distance_to_star": 2414
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-13.502847184153678,-18.056812929958944],
+                "initialPosition": [0,0],
+                "velocity": [-0.0006630502075384716,-0.00006272047460001177],
+                "initialVelocity": [0,0],
+                "distance_travelled": 25.63255215714318,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 9,
+                "position": [423.16353794855297,263.12547773227425],
+                "initialPosition": [420,200],
+                "velocity": [-2.263277547179471,-3.9303105837777657],
+                "initialVelocity": [-3,-4],
+                "distance_travelled": 15868.486104436313,
+                "distance_to_star": 519
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-7.16560891569897,-45.32804025027384],
+                "initialPosition": [0,0],
+                "velocity": [-0.00008226961053661827,-0.015555267385979784],
+                "initialVelocity": [0,0],
+                "distance_travelled": 50.423685608535486,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 13,
+                "position": [302.00685822995877,-312.2767305584964],
+                "initialPosition": [-210,-180],
+                "velocity": [-0.9367156842026044,4.965590296907507],
+                "initialVelocity": [-1,-7],
+                "distance_travelled": 19205.730719056748,
+                "distance_to_star": 408
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-29.374772312715887,-15.096686544632878],
+                "initialPosition": [0,0],
+                "velocity": [-0.003881400738155432,-0.005347539560569864],
+                "initialVelocity": [0,0],
+                "distance_travelled": 37.77102860732793,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 10,
+                "position": [-625.2276872841787,-203.31345536706547],
+                "initialPosition": [0,-300],
+                "velocity": [-2.118599261844585,2.347539560569857],
+                "initialVelocity": [-6,-3],
+                "distance_travelled": 21694.286317087874,
+                "distance_to_star": 624
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-20.506354754728356,-9.074668568654722],
+                "initialPosition": [0,0],
+                "velocity": [-0.007556891900837973,-0.004300290794626817],
+                "initialVelocity": [0,0],
+                "distance_travelled": 28.19626849160338,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 10,
+                "position": [256.3547547283831,-475.3314313452449],
+                "initialPosition": [-250,450],
+                "velocity": [3.5568919008379867,2.3002907946268216],
+                "initialVelocity": [-4,-2],
+                "distance_travelled": 21657.572203059455,
+                "distance_to_star": 542
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-17.87247661512651,-18.34012895216989],
+                "initialPosition": [0,0],
+                "velocity": [-0.01102452548617916,-0.0027726157210108404],
+                "initialVelocity": [0,0],
+                "distance_travelled": 34.20663118013123,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 9,
+                "position": [8.307350140631963,157.92105796655602],
+                "initialPosition": [150,-220],
+                "velocity": [8.249472762421302,-0.9193158655435139],
+                "initialVelocity": [-4,-4],
+                "distance_travelled": 32404.684974722135,
+                "distance_to_star": 178
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-22.49567511125899,-40.46095156650581],
+                "initialPosition": [0,0],
+                "velocity": [0.0015021135938951327,0.0018560534788330354],
+                "initialVelocity": [0,0],
+                "distance_travelled": 62.20055332413945,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 9,
+                "position": [-84.80543193442007,-13.387148326778902],
+                "initialPosition": [-80,30],
+                "velocity": [-6.669015104327957,-11.06228164314779],
+                "initialVelocity": [-5,-9],
+                "distance_travelled": 56552.20165354811,
+                "distance_to_star": 67
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-23.369120471028285,-29.994695137402818],
+                "initialPosition": [0,0],
+                "velocity": [-0.00029574082645645797,-0.014773912776829965],
+                "initialVelocity": [0,0],
+                "distance_travelled": 45.05796763560669,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 12,
+                "position": [-235.73294080974267,-44.420718831167704],
+                "initialPosition": [290,-40],
+                "velocity": [-3.7535493112862883,7.311593980691581],
+                "initialVelocity": [-4,-5],
+                "distance_travelled": 24134.859202139134,
+                "distance_to_star": 212
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-17.01766431960938,-42.0238667566646],
+                "initialPosition": [0,0],
+                "velocity": [-0.004266057683087274,-0.011567051933734132],
+                "initialVelocity": [0,0],
+                "distance_travelled": 50.37356518319361,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 12,
+                "position": [-668.6130669920725,-180.1110361127531],
+                "initialPosition": [150,-200],
+                "velocity": [0.5550480692394311,2.6392099447784827],
+                "initialVelocity": [-3,-7],
+                "distance_travelled": 20994.290412706127,
+                "distance_to_star": 666
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-8.163748474182537,-12.051442990126777],
+                "initialPosition": [0,0],
+                "velocity": [0.0015050233632557624,-0.003854408652286566],
+                "initialVelocity": [0,0],
+                "distance_travelled": 25.90928539030809,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 8,
+                "position": [-15.314407271753725,264.30373765854876],
+                "initialPosition": [-220,200],
+                "velocity": [-3.881279204069672,1.8180108153582328],
+                "initialVelocity": [-2,-3],
+                "distance_travelled": 32968.8049096811,
+                "distance_to_star": 276
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-9.173044308851555,-22.144554113662902],
+                "initialPosition": [0,0],
+                "velocity": [-0.0006073691340864822,-0.004223818268519236],
+                "initialVelocity": [0,0],
+                "distance_travelled": 24.639562927890964,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 7,
+                "position": [2824.349012645048,1985.0773052326251],
+                "initialPosition": [-280,350],
+                "velocity": [-1.132329808447892,0.03402609788464819],
+                "initialVelocity": [-2,-6],
+                "distance_travelled": 7112.226687891144,
+                "distance_to_star": 3472
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-11.738728598204489,-23.715742964212396],
+                "initialPosition": [0,0],
+                "velocity": [0.002324145036515947,-0.0021727038457936936],
+                "initialVelocity": [0,0],
+                "distance_travelled": 33.767241063760956,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 12,
+                "position": [232.2738318370937,-456.880863156366],
+                "initialPosition": [450,-220],
+                "velocity": [-3.9367875304299385,-2.189413461838594],
+                "initialVelocity": [-2,-4],
+                "distance_travelled": 22319.922115740595,
+                "distance_to_star": 497
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-10.118113836720285,-4.948787101098774],
+                "initialPosition": [0,0],
+                "velocity": [-0.001424912556179224,-0.0050467281844486685],
+                "initialVelocity": [0,0],
+                "distance_travelled": 18.45242159249614,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 5,
+                "position": [106.22767344055947,97.5742021975726],
+                "initialPosition": [-130,200],
+                "velocity": [-1.150174887641587,8.09345636889735],
+                "initialVelocity": [-4,-2],
+                "distance_travelled": 37032.87917640178,
+                "distance_to_star": 155
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-7.845426543615703,-21.573559518060794],
+                "initialPosition": [0,0],
+                "velocity": [-0.0021260560152596662,-0.0033655675351648992],
+                "initialVelocity": [0,0],
+                "distance_travelled": 24.278825222376227,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 8,
+                "position": [266.7831795196489,2256.9493975760865],
+                "initialPosition": [460,290],
+                "velocity": [0.6575700190745842,-0.793040581043848],
+                "initialVelocity": [-2,-5],
+                "distance_travelled": 10411.569381367735,
+                "distance_to_star": 2295
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-16.104425977099844,-11.603014992565221],
+                "initialPosition": [0,0],
+                "velocity": [-0.005787319062660642,-0.003516763955418385],
+                "initialVelocity": [0,0],
+                "distance_travelled": 23.32855886463051,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 8,
+                "position": [-289.4675286251493,-506.23125929337516],
+                "initialPosition": [-420,-10],
+                "velocity": [3.234148828325803,1.395954944273012],
+                "initialVelocity": [-4,-3],
+                "distance_travelled": 18662.912694918843,
+                "distance_to_star": 565
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-22.34287122331015,-20.2845130782836],
+                "initialPosition": [0,0],
+                "velocity": [-0.005022844075718171,-0.00393859285755323],
+                "initialVelocity": [0,0],
+                "distance_travelled": 30.300092755532507,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 7,
+                "position": [-8041.612538128374,3757.875826119383],
+                "initialPosition": [40,-220],
+                "velocity": [-0.8245084632597841,0.6265612250760498],
+                "initialVelocity": [-8,-5],
+                "distance_travelled": 9200.825937411548,
+                "distance_to_star": 8864
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-36.247395446977116,-19.691576796338303],
+                "initialPosition": [0,0],
+                "velocity": [-0.005528827718535733,-0.014845829927558337],
+                "initialVelocity": [0,0],
+                "distance_travelled": 50.01566657783891,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 19,
+                "position": [-442.4234489594201,23.987787546530562],
+                "initialPosition": [480,-340],
+                "velocity": [-1.090090674454878,5.813594698714932],
+                "initialVelocity": [-4,-2],
+                "distance_travelled": 17894.401556728037,
+                "distance_to_star": 408
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-27.639500142219983,-11.38969455198517],
+                "initialPosition": [0,0],
+                "velocity": [-0.0076827258138925944,0.0026435951935186563],
+                "initialVelocity": [0,0],
+                "distance_travelled": 39.20955699484718,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 11,
+                "position": [296.8183111091518,94.26777453203346],
+                "initialPosition": [170,-260],
+                "velocity": [1.9842961944478243,-4.403268357744221],
+                "initialVelocity": [-5,-2],
+                "distance_travelled": 29392.153541490767,
+                "distance_to_star": 341
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-36.37826591170995,-16.467529365578798],
+                "initialPosition": [0,0],
+                "velocity": [-0.010129158342551826,-0.007476473303320189],
+                "initialVelocity": [0,0],
+                "distance_travelled": 46.361556142733704,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 15,
+                "position": [-457.82272552663864,618.3529103858301],
+                "initialPosition": [290,-360],
+                "velocity": [1.7527722283679112,2.984315535546767],
+                "initialVelocity": [-5,-2],
+                "distance_travelled": 18351.42622252022,
+                "distance_to_star": 761
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-31.23260069321079,-26.319164872165864],
+                "initialPosition": [0,0],
+                "velocity": [-0.006088365227638607,-0.003983389256760525],
+                "initialVelocity": [0,0],
+                "distance_travelled": 42.1712709551153,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 12,
+                "position": [1427.1672443423201,2022.6373934715086],
+                "initialPosition": [400,90],
+                "velocity": [0.07363768969881684,-0.6805089526995793],
+                "initialVelocity": [-5,-4],
+                "distance_travelled": 9493.177709185082,
+                "distance_to_star": 2514
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-28.06548022480049,-15.678202944084717],
+                "initialPosition": [0,0],
+                "velocity": [-0.009038622919859393,-0.004761782822430961],
+                "initialVelocity": [0,0],
+                "distance_travelled": 37.15257778815392,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 11,
+                "position": [524.0729316368165,-367.088232650336],
+                "initialPosition": [10,380],
+                "velocity": [3.2169299271448843,1.328893474937212],
+                "initialVelocity": [-5,-3],
+                "distance_travelled": 19910.821049952167,
+                "distance_to_star": 654
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-7.984891123968116,-35.66867868903271],
+                "initialPosition": [0,0],
+                "velocity": [0.000030070507333620473,-0.006117290672516598],
+                "initialVelocity": [0,0],
+                "distance_travelled": 37.565252913103706,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 11,
+                "position": [1978.9919308801088,2816.0715354842323],
+                "initialPosition": [-280,390],
+                "velocity": [-1.027336824848745,-0.43882666134855336],
+                "initialVelocity": [-1,-6],
+                "distance_travelled": 6928.17007936941,
+                "distance_to_star": 3475
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-37.762793836542016,-36.508815915069015],
+                "initialPosition": [0,0],
+                "velocity": [-0.01102339879441932,-0.0013757446653787399],
+                "initialVelocity": [0,0],
+                "distance_travelled": 61.08379720354254,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 19,
+                "position": [-464.8453491884846,-544.8337289110699],
+                "initialPosition": [-340,240],
+                "velocity": [1.801788839168055,-3.2759238603269862],
+                "initialVelocity": [-4,-4],
+                "distance_travelled": 19535.867636445957,
+                "distance_to_star": 663
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-8.953242769205575,-2.69440202512132],
+                "initialPosition": [0,0],
+                "velocity": [-0.006017622718944114,0.0033750491356925078],
+                "initialVelocity": [0,0],
+                "distance_travelled": 15.902723757541045,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 6,
+                "position": [-147.9287179906602,-69.32995813113317],
+                "initialPosition": [-70,440],
+                "velocity": [7.029371198240229,-6.625081892820843],
+                "initialVelocity": [-3,-1],
+                "distance_travelled": 26901.805692620255,
+                "distance_to_star": 154
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-22.108221460890228,-53.8495903500727],
+                "initialPosition": [0,0],
+                "velocity": [-0.00639384105072455,-0.009883920902163982],
+                "initialVelocity": [0,0],
+                "distance_travelled": 62.36777551721021,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 15,
+                "position": [-21.185692739943885,1009.7269000482767],
+                "initialPosition": [240,110],
+                "velocity": [1.2625607004830113,-0.410719398557372],
+                "initialVelocity": [-3,-7],
+                "distance_travelled": 16479.246134191733,
+                "distance_to_star": 1063
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-7.471392653616957,-15.103967742175204],
+                "initialPosition": [0,0],
+                "velocity": [-0.004274589798405979,-0.000981812666612378],
+                "initialVelocity": [0,0],
+                "distance_travelled": 22.3064953544708,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 5,
+                "position": [122.78530723389173,127.9354843504398],
+                "initialPosition": [180,-80],
+                "velocity": [5.549179596811946,-4.036374666775234],
+                "initialVelocity": [-3,-6],
+                "distance_travelled": 37426.1597270262,
+                "distance_to_star": 193
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-8.185338059858298,-58.42431446015388],
+                "initialPosition": [0,0],
+                "velocity": [-0.004683013141268906,-0.008822668212588598],
+                "initialVelocity": [0,0],
+                "distance_travelled": 61.7507297331637,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 15,
+                "position": [206.8920399055779,-1160.457026563955],
+                "initialPosition": [-250,-110],
+                "velocity": [2.1220087608459477,-2.1182211916075766],
+                "initialVelocity": [-1,-8],
+                "distance_travelled": 12380.363103269709,
+                "distance_to_star": 1122
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-11.516703820406294,-37.650752857067324],
+                "initialPosition": [0,0],
+                "velocity": [-0.005048968738556637,-0.007235019337623172],
+                "initialVelocity": [0,0],
+                "distance_travelled": 43.74849098071288,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 11,
+                "position": [189.73074582393892,-802.0428572116384],
+                "initialPosition": [-280,-30],
+                "velocity": [2.5899715805060444,-0.42270969306985917],
+                "initialVelocity": [-2,-7],
+                "distance_travelled": 19571.9589662887,
+                "distance_to_star": 790
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-13.544392534930537,-18.994085222833586],
+                "initialPosition": [0,0],
+                "velocity": [-0.007428409676040828,-0.013435067553757686],
+                "initialVelocity": [0,0],
+                "distance_travelled": 35.669878357130024,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 13,
+                "position": [188.76348840804354,-9.165213204955943],
+                "initialPosition": [-230,380],
+                "velocity": [3.714161289262131,7.334667349044384],
+                "initialVelocity": [-2,-3],
+                "distance_travelled": 26004.140349810565,
+                "distance_to_star": 202
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-16.137047374610134,-16.369708913341768],
+                "initialPosition": [0,0],
+                "velocity": [-0.0031601480449997507,0.0019677217861271807],
+                "initialVelocity": [0,0],
+                "distance_travelled": 36.70630861586473,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 16,
+                "position": [545.654609131287,-218.93192916126762],
+                "initialPosition": [460,-450],
+                "velocity": [-0.02490747187516772,-3.229826116329462],
+                "initialVelocity": [-2,-2],
+                "distance_travelled": 22666.846596434443,
+                "distance_to_star": 597
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-23.92868880110848,-5.982368408221131],
+                "initialPosition": [0,0],
+                "velocity": [-0.0017640897081425545,0.0019816822622925685],
+                "initialVelocity": [0,0],
+                "distance_travelled": 39.38485843178252,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 12,
+                "position": [-229.4259990763377,225.30700685095445],
+                "initialPosition": [-170,240],
+                "velocity": [-2.52992524321456,-2.6514018852437804],
+                "initialVelocity": [-4,-1],
+                "distance_travelled": 32330.93802718945,
+                "distance_to_star": 309
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-9.912292150954231,-35.861826882936974],
+                "initialPosition": [0,0],
+                "velocity": [-0.0026260701767579667,-0.007880574178645414],
+                "initialVelocity": [0,0],
+                "distance_travelled": 37.26867122242139,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 12,
+                "position": [-6659.756540871468,-5445.144264219171],
+                "initialPosition": [80,-330],
+                "velocity": [-0.8116081860350262,-0.4328548511288162],
+                "initialVelocity": [-3,-7],
+                "distance_travelled": 8537.34828881321,
+                "distance_to_star": 8572
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-8.99380096199175,-11.822098623736306],
+                "initialPosition": [0,0],
+                "velocity": [-0.00556048406583675,0.0036676706181750234],
+                "initialVelocity": [0,0],
+                "distance_travelled": 21.155464757496983,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 6,
+                "position": [-110.33173001379993,-36.50229377274345],
+                "initialPosition": [-100,260],
+                "velocity": [6.267473443061247,-10.112784363625032],
+                "initialVelocity": [-3,-4],
+                "distance_travelled": 30882.24121698394,
+                "distance_to_star": 104
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-74.9144326457715,-28.573343811928275],
+                "initialPosition": [0,0],
+                "velocity": [-0.01530202390483471,-0.006965611723080007],
+                "initialVelocity": [0,0],
+                "distance_travelled": 82.36756121108348,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 16,
+                "position": [1801.5204036071395,-1951.660117544842],
+                "initialPosition": [-20,190],
+                "velocity": [0.5637649405216556,0.3535073269250103],
+                "initialVelocity": [-9,-4],
+                "distance_travelled": 10261.688653522393,
+                "distance_to_star": 2686
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-16.45271356541694,-13.50016853509638],
+                "initialPosition": [0,0],
+                "velocity": [-0.003804559884920005,-0.003320472352301159],
+                "initialVelocity": [0,0],
+                "distance_travelled": 21.28841397719298,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 5,
+                "position": [-2294.5728691660183,-3109.6629298070957],
+                "initialPosition": [-200,-110],
+                "velocity": [0.6091197698400247,0.6409447046023514],
+                "initialVelocity": [-7,-6],
+                "distance_travelled": 5065.124585230893,
+                "distance_to_star": 3843
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-39.402580616544704,-11.73180884486974],
+                "initialPosition": [0,0],
+                "velocity": [-0.006392416910053826,-0.004217380102861281],
+                "initialVelocity": [0,0],
+                "distance_travelled": 42.008113908637256,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 6,
+                "position": [660.9676942412083,-346.98525855045375],
+                "initialPosition": [-10,100],
+                "velocity": [-2.345971816576937,3.028966838102164],
+                "initialVelocity": [-13,-4],
+                "distance_travelled": 11904.684831327328,
+                "distance_to_star": 776
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-19.605581336614776,-20.279287284227102],
+                "initialPosition": [0,0],
+                "velocity": [-0.006699470559035594,-0.00882290336109778],
+                "initialVelocity": [0,0],
+                "distance_travelled": 32.92166456883572,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 10,
+                "position": [-44.41866338518758,349.2872842270066],
+                "initialPosition": [350,70],
+                "velocity": [2.6994705590355936,4.822903361097751],
+                "initialVelocity": [-4,-4],
+                "distance_travelled": 19717.87724216,
+                "distance_to_star": 370
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    },
+    {
+        "fps": 480,
+        "iterations": 5000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "position": [-18.089245105121286,-18.41533511308],
+                "initialPosition": [0,0],
+                "velocity": [-0.007562012356017196,0.0048227611753809225],
+                "initialVelocity": [0,0],
+                "distance_travelled": 48.795243470999566,
+                "distance_to_star": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 18,
+                "position": [259.5806139562704,-109.2582705112556],
+                "initialPosition": [210,-340],
+                "velocity": [2.2011179755650985,-4.6793117641005395],
+                "initialVelocity": [-2,-2],
+                "distance_travelled": 28063.404664514295,
+                "distance_to_star": 292
+            }
+        ],
+        "causeOfFailure": "max runs exceeded"
+    }
+]

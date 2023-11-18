@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<canvas id="canvas" width="1080" height="840"></canvas>
+<div id="controls">
+    <button id="createstar">Create star</button>
+    <button id="createplanet">Create planet</button>
+    <label for="fps"><span class="label">FPS:</span><input id="fps" name="fps" type="range" min="30" max="240" step="30" value="60"></label>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <hr>
+    <button id="randomrun">Random run</button>
+    <button id="runfromfile">Run from file</button>
+</div>
+<div id="stats">
+    <label for="currentfps"><span class="label">FPS:</span><span id="currentfps" class="value"></span></label>
+    <label for="iterations"><span class="label">Iterations:</span><span id="iterations" class="value"></span></label>
+    <label for="totalruns"><span class="label">Total runs:</span><span id="totalruns" class="value"></span></label>
+    <hr>
+    <div class="header">Bodies</div>
+    <div id="bodiesstats"></div>
+    <div id="rawoutput"><textarea id="output"></textarea></div>
+</div>
+<script src="browser.js"></script>
+</body>
+</html>
