@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<title>Snakes and Snakes - Go WASM</title>
+<script src="wasm_exec.js"></script>
+<script src="rollDice.js"></script>
+<script src="board.js"></script>
+</head>
+<body>
+<textarea id="gamelog" style="width: 99vw; height: 150px"></textarea>
+<button id="newGame">New game</button>
+<button id="playRound" disabled>Play round</button>
+<button id="playAutoGame">Play auto game</button>
+<div id="rollDiceWrapper" style="cursor:pointer"></div>
+<div id="boardWrapper" style="float:left;"></div>
+<div id="gamestats" style="float:left;margin-left:1rem"></div>
+<!-- <img src="board.png"> -->
+<script>
+const go = new Go();
+
+let board;
+const playerColors = [
+    '#650d53',
+    '#64650a',
+    '#045565',
+    '#076502',
+];
+
+const gamelog = document.getElementById('gamelog');
+const newGameBtn = document.getElementById('newGame');
+const playRoundBtn = document.getElementById('playRound');
+const playAutoGameBtn = document.getElementById('playAutoGame');
+const gamestats = document.getElementById('gamestats');
+
+WebAssembly.instantiateStreaming(fetch('main.wasm'), go.importObject).then(result => {
+    inst = result.instance;
+    go.run(inst);
+});
+
+function updateState(newState) {
+    const state = JSON.parse(newState);
+
+    board.drawBoard();
+
+    let gameStatsStr = `<b>Round: ${state.Rounds}</b><br><br>`;
+
+    const currentLeader = [].concat(...state.Players).sort((a, b) => b.CurrentPosition - a.CurrentPosition)[0];
+
+    state.Players.forEach((player, idx) => {
+        if (!player.IsOnBoard) {
+            gameStatsStr += `${player.Name}: Not on board<br>`;
+            return;
+        }
+
+        if (currentLeader.Name === player.Name) {
+            gameStatsStr += `<b>${player.Name}: ${player.CurrentPosition}</b><br>`;
+        } else {
+            gameStatsStr += `${player.Name}: ${player.CurrentPosition}<br>`;
+        }
+        board.drawPlayer(player.Name, player.CurrentPosition, playerColors[idx % playerColors.length]);
+    });
+
+    if (state.GameIsOver) {
+        gameStatsStr += `The game is over after ${state.Rounds} rounds, ${state.Winner.Name} has won!`;
+        playRoundBtn.setAttribute('disabled', 'disabled');
+    }
+    gamestats.innerHTML = gameStatsStr;
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+    const boardWrapper = document.getElementById('boardWrapper');
+    board = new Board(boardWrapper);
+    board.drawBoard();
+
+    const rollDiceWrapper = document.getElementById('rollDiceWrapper');
+    const rollDice = new RollDice(rollDiceWrapper);
+
+    rollDiceWrapper.addEventListener('click', async () => {
+        const roll = await rollDice.rollDice();
+        playRound(roll);
+        gamelog.scrollTop = gamelog.scrollHeight;
+    });
+
+    // Initialize the canvas with one dot
+    rollDice.drawDiceFace(Math.floor(Math.random() * 6) + 1);
+
+    newGameBtn.addEventListener('click', e => {
+        e.preventDefault();
+        playRoundBtn.removeAttribute('disabled');
+        newGame();
+    });
+
+    playRoundBtn.addEventListener('click', e => {
+        e.preventDefault();
+        playRound(2);
+        gamelog.scrollTop = gamelog.scrollHeight;
+    });
+
+    playAutoGameBtn.addEventListener('click', e => {
+        e.preventDefault();
+
+        let interval;
+        window.setInterval(() => {
+            if (playRoundBtn.disabled) window.clearInterval(interval);
+            playRoundBtn.click();
+        }, 500);
+    })
+})
+</script>
+</body>
+</html>
