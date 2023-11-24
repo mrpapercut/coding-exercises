@@ -26,7 +26,7 @@ var game Game
 var snakes map[int]int
 
 func Roll() int {
-	rand.Seed(time.Now().UnixNano())
+	rand.New(rand.NewSource(time.Now().UnixNano()))
 
 	randomInt := rand.Intn(6) + 1
 
@@ -49,7 +49,7 @@ func PlayRound() {
 		roll := Roll()
 		LogAction(fmt.Sprintf("%s rolled a %d", player_name, roll))
 
-		if player.IsOnBoard == false {
+		if !player.IsOnBoard {
 			if roll == 6 {
 				LogAction(fmt.Sprintf("%s is on board!", player_name))
 
