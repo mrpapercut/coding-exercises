@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./public",
+        "target": "es2021",
+        "module": "CommonJS",
+        "sourceMap": true,
+        "allowJs": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

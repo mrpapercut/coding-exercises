@@ -1,0 +1,183 @@
+[
+    {
+        "iterations": 16000,
+        "bodies": [
+            {
+                "name": "A",
+                "mass": 10000,
+                "radius": 48,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "initialPosition": {
+                    "x": 0,
+                    "y": 0
+                },
+                "velocity": {
+                    "x": -0.05751896011537706,
+                    "y": -0.028898443781372917
+                },
+                "initialVelocity": {
+                    "x": 0,
+                    "y": 0
+                },
+                "distance_travelled": 0,
+                "distance_to_star": 0,
+                "minDistanceToStar": 9007199254740991,
+                "maxDistanceToStar": 0
+            },
+            {
+                "name": "Planet 1",
+                "mass": 19,
+                "radius": 15,
+                "position": {
+                    "x": 52.740497887117925,
+                    "y": 297.58757892108486
+                },
+                "initialPosition": {
+                    "x": 220,
+                    "y": -110
+                },
+                "velocity": {
+                    "x": 3.836843444684785,
+                    "y": -4.379802982814161
+                },
+                "initialVelocity": {
+                    "x": -6,
+                    "y": -5
+                },
+                "distance_travelled": 78273.46231908679,
+                "distance_to_star": 302,
+                "minDistanceToStar": 115,
+                "maxDistanceToStar": 721
+            },
+            {
+                "name": "Planet 2",
+                "mass": 9,
+                "radius": 12,
+                "position": {
+                    "x": -121.680223238568,
+                    "y": -231.48844131116198
+                },
+                "initialPosition": {
+                    "x": -50,
+                    "y": 200
+                },
+                "velocity": {
+                    "x": 4.236497080849063,
+                    "y": -2.1439417852914504
+                },
+                "initialVelocity": {
+                    "x": -7,
+                    "y": -4
+                },
+                "distance_travelled": 100983.4608290846,
+                "distance_to_star": 261,
+                "minDistanceToStar": 105,
+                "maxDistanceToStar": 510
+            },
+            {
+                "name": "Planet 3",
+                "mass": 10,
+                "radius": 12,
+                "position": {
+                    "x": 550.1075100039446,
+                    "y": 121.92404719352878
+                },
+                "initialPosition": {
+                    "x": 160,
+                    "y": -220
+                },
+                "velocity": {
+                    "x": 2.1507736850553787,
+                    "y": -3.0739261882966784
+                },
+                "initialVelocity": {
+                    "x": -6,
+                    "y": -3
+                },
+                "distance_travelled": 80696.61629811347,
+                "distance_to_star": 563,
+                "minDistanceToStar": 226,
+                "maxDistanceToStar": 660
+            },
+            {
+                "name": "Planet 4",
+                "mass": 12,
+                "radius": 13,
+                "position": {
+                    "x": -86.81198626544085,
+                    "y": -28.620503585642087
+                },
+                "initialPosition": {
+                    "x": 40,
+                    "y": -100
+                },
+                "velocity": {
+                    "x": -6.716939980480099,
+                    "y": 8.286967516533682
+                },
+                "initialVelocity": {
+                    "x": -8,
+                    "y": -5
+                },
+                "distance_travelled": 160036.88374892602,
+                "distance_to_star": 91,
+                "minDistanceToStar": 64,
+                "maxDistanceToStar": 121
+            },
+            {
+                "name": "Planet 5",
+                "mass": 7,
+                "radius": 10,
+                "position": {
+                    "x": 79.72303400846984,
+                    "y": -280.75031234850803
+                },
+                "initialPosition": {
+                    "x": -130,
+                    "y": 50
+                },
+                "velocity": {
+                    "x": 5.172202850976889,
+                    "y": 0.6508651834075765
+                },
+                "initialVelocity": {
+                    "x": -5,
+                    "y": -8
+                },
+                "distance_travelled": 104587.11384954423,
+                "distance_to_star": 291,
+                "minDistanceToStar": 122,
+                "maxDistanceToStar": 347
+            },
+            {
+                "name": "Planet 6",
+                "mass": 15,
+                "radius": 14,
+                "position": {
+                    "x": 322.97370415406175,
+                    "y": 1315.9694702692586
+                },
+                "initialPosition": {
+                    "x": 200,
+                    "y": -240
+                },
+                "velocity": {
+                    "x": 1.9367483290327105,
+                    "y": 1.7490510637021603
+                },
+                "initialVelocity": {
+                    "x": -6,
+                    "y": -1
+                },
+                "distance_travelled": 49940.49475348334,
+                "distance_to_star": 1355,
+                "minDistanceToStar": 169,
+                "maxDistanceToStar": 2330
+            }
+        ],
+        "causeOfFailure": "max iterations exceeded"
+    }
+]
